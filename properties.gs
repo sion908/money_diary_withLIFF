@@ -7,12 +7,12 @@ function setCHANNEL_ACCESS_TOKEN(){
 function setDISCORD_WEBWOOK(){
   const discord_webhook = "xxx";
   if (discord_webhook == "xxx"){console.log("値をいれてください");return;}
-  ScriptProperties.setProperty("CHANNEL_ACCESS_TOKEN",discord_webhook);
+  ScriptProperties.setProperty("DISCORD_WEBWOOK",discord_webhook);
 }
 function setSHEET_ID(){
   const sheet_id = "xxx";
   if (sheet_id == "xxx"){console.log("値をいれてください");return;}
-  ScriptProperties.setProperty("SHEETID",sheet_id);
+  ScriptProperties.setProperty("SHEET_ID",sheet_id);
 }
 
 function setUserList(){

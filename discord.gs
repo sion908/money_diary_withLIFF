@@ -2,6 +2,7 @@
 function sendDisco(message="uni") {
   //取得したWebhookURLを追加
   const DISCORD_WEBWOOK = ScriptProperties.getProperty("DISCORD_WEBWOOK");
+  if(!DISCORD_WEBWOOK){ return }
 
   const payload = {
     // username: "花火",

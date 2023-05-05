@@ -14,6 +14,14 @@ function setSHEET_ID(){
   if (sheet_id == "xxx"){console.log("値をいれてください");return;}
   ScriptProperties.setProperty("SHEET_ID",sheet_id);
 }
+function setWEBHOOK_TOKEN(){
+  const webhook_token = "xxx";
+  if (webhook_token == "xxx"){console.log("値をいれてください");return;}
+  ScriptProperties.setProperty("WEBHOOK_TOKEN",webhook_token);
+}
+function maks(){
+  console.log(ScriptProperties.getProperty("SHEETID"))
+}
 
 function setUserList(){
   users = [

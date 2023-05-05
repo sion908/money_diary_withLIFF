@@ -44,7 +44,7 @@ function setQuickRepItems(){
     ["食費","Food"],
     ["交際費","Entertainment"],
     ["日用品費","Daily"],
-    ["被服,美容費","Expense"],
+    ["被服、美容費","Expense"],
     ["趣味費","Hobby"],
     ["交通費","Transportation"],
     ["医療費","Medical"],
